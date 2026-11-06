@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>茄子人成年短视频-茄子人成年短视频内容_成年向短视频观看与投稿</title>
+<meta name="description" content="茄子人成年短视频是面向成年观众的短视频内容页面，提供成年向短片观看入口、内容分区、创作者投稿说明与常见问题解答，所有内容仅限成年人访问。">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='24' fill='%232f1a4d'/%3E%3Cpath d='M50 18c6 0 10 5 10 11 0 4-2 7-4 9 10 3 17 12 17 23 0 13-10 23-23 23S27 74 27 61c0-11 7-20 17-23-2-2-4-5-4-9 0-6 4-11 10-11z' fill='%23b07cf0'/%3E%3Cpath d='M43 30c2-5 5-7 7-7s5 2 7 7' stroke='%2373c88a' stroke-width='4' fill='none' stroke-linecap='round'/%3E%3Ccircle cx='42' cy='58' r='4' fill='%232f1a4d'/%3E%3Ccircle cx='58' cy='58' r='4' fill='%232f1a4d'/%3E%3C/svg%3E">
+<style>
+:root{
+  --bg:#120e1c;
+  --bg-soft:#1a1428;
+  --card:#221a33;
+  --card-2:#2a2040;
+  --line:rgba(176,124,240,.22);
+  --purple:#b07cf0;
+  --purple-deep:#7b4fd0;
+  --green:#73c88a;
+  --text:#ece7f6;
+  --muted:#a99cc4;
+  --radius:18px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{
+  background:
+    radial-gradient(900px 480px at 82% -8%, rgba(176,124,240,.20), transparent 62%),
+    radial-gradient(700px 420px at 6% 12%, rgba(115,200,138,.10), transparent 60%),
+    var(--bg);
+  color:var(--text);
+  font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Source Han Sans SC",system-ui,sans-serif;
+  line-height:1.75;
+  -webkit-font-smoothing:antialiased;
+}
+a{color:inherit;text-decoration:none}
+.wrap{width:min(1120px,92vw);margin:0 auto}
+img,svg{display:block;max-width:100%}
+
+/* ---------- header ---------- */
+header.site{
+  position:sticky;top:0;z-index:50;
+  background:rgba(18,14,28,.86);
+  backdrop-filter:blur(12px);
+  border-bottom:1px solid var(--line);
+}
+.nav-inner{display:flex;align-items:center;justify-content:space-between;gap:18px;padding:14px 0}
+.brand{display:flex;align-items:center;gap:11px;min-width:0}
+.brand .mark{width:42px;height:42px;flex:0 0 42px;border-radius:13px;background:linear-gradient(150deg,#3a2a58,#241a38);display:grid;place-items:center;border:1px solid var(--line)}
+.brand .mark svg{width:26px;height:26px}
+.brand-name{font-size:17px;font-weight:700;letter-spacing:.4px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+nav.main{display:flex;align-items:center;gap:6px;flex-wrap:wrap}
+nav.main a{
+  font-size:14.5px;color:var(--muted);padding:7px 12px;border-radius:9px;
+  transition:.2s;white-space:nowrap;
+}
+nav.main a:hover,nav.main a:focus-visible{color:var(--text);background:rgba(176,124,240,.14);outline:none}
+.nav-cta{
+  font-size:14.5px;font-weight:600;padding:8px 16px;border-radius:10px;
+  background:linear-gradient(135deg,var(--purple-deep),var(--purple));
+  color:#fff;white-space:nowrap;
+}
+.nav-cta:hover{filter:brightness(1.1)}
+
+/* ---------- hero ---------- */
+.hero{padding:66px 0 54px;border-bottom:1px solid var(--line);overflow:hidden}
+.hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:46px;align-items:center}
+.tagline{
+  display:inline-flex;align-items:center;gap:8px;font-size:13px;color:var(--green);
+  border:1px solid rgba(115,200,138,.34);background:rgba(115,200,138,.08);
+  padding:5px 13px;border-radius:999px;margin-bottom:20px;letter-spacing:.5px;
+}
+.tagline i{width:7px;height:7px;border-radius:50%;background:var(--green);display:block}
+h1{
+  font-size:clamp(26px,3.6vw,42px);
+  line-height:1.32;font-weight:800;letter-spacing:.5px;
+  margin-bottom:18px;
+  background:linear-gradient(120deg,#fff 20%,#d9c4ff 65%,#b07cf0 100%);
+  -webkit-background-clip:text;background-clip:text;color:transparent;
+}
+.hero-lead{font-size:15.5px;color:var(--muted);max-width:44em;margin-bottom:26px}
+.hero-lead strong{color:var(--text);font-weight:600}
+.btn-row{display:flex;gap:12px;flex-wrap:wrap;align-items:center}
+.btn{
+  display:inline-flex;align-items:center;gap:8px;
+  padding:12px 24px;border-radius:12px;font-size:15px;font-weight:600;
+  transition:.2s;border:1px solid transparent;
+}
+.btn-primary{background:linear-gradient(135deg,var(--purple-deep),var(--purple));color:#fff;box-shadow:0 10px 26px -12px rgba(176,124,240,.9)}
+.btn-primary:hover{filter:brightness(1.1);transform:translateY(-1px)}
+.btn-ghost{border-color:var(--line);color:var(--text);background:rgba(255,255,255,.03)}
+.btn-ghost:hover{background:rgba(176,124,240,.14);border-color:rgba(176,124,240,.45)}
+.btn[aria-disabled="true"]{opacity:.72;cursor:not-allowed;pointer-events:none}
+.hero-note{margin-top:18px;font-size:12.5px;color:var(--muted);letter-spacing:.3px}
+
+.hero-art{position:relative;aspect-ratio:1/1;border-radius:26px;overflow:hidden;border:1px solid var(--line);background:linear-gradient(160deg,#2c2044,#1a1428 70%)}
+.hero-art svg{width:100%;height:100%}
+
+/* ---------- section shell ---------- */
+section.block{padding:58px 0;border-bottom:1px solid var(--line)}
+.sec-head{display:flex;align-items:flex-end;justify-content:space-between;gap:20px;flex-wrap:wrap;margin-bottom:28px}
+.sec-head h2{font-size:clamp(20px,2.3vw,26px);font-weight:800;letter-spacing:.4px}
+.sec-head h2 span{color:var(--purple)}
+.sec-head p{font-size:14px;color:var(--muted);max-width:46em;margin-top:6px}
+
+/* ---------- channel cards ---------- */
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.card{
+  background:linear-gradient(165deg,var(--card),var(--bg-soft));
+  border:1px solid var(--line);border-radius:var(--radius);
+  padding:22px 20px;transition:.22s;position:relative;overflow:hidden;
+}
+.card:hover{border-color:rgba(176,124,240,.5);transform:translateY(-3px)}
+.card .ico{width:38px;height:38px;border-radius:11px;display:grid;place-items:center;background:rgba(176,124,240,.16);margin-bottom:14px}
+.card .ico svg{width:20px;height:20px}
+.card h3{font-size:16.5px;font-weight:700;margin-bottom:8px}
+.card p{font-size:14px;color:var(--muted);line-height:1.7}
+.card .meta{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px;font-size:12px;color:var(--purple);letter-spacing:.3px}
+.card .meta em{font-style:normal;background:rgba(176,124,240,.12);padding:2px 9px;border-radius:6px}
+
+/* ---------- list / feed ---------- */
+.feed{display:grid;grid-template-columns:1.25fr .75fr;gap:20px}
+.panel{background:linear-gradient(170deg,var(--card-2),var(--bg-soft));border:1px solid var(--line);border-radius:var(--radius);padding:24px 22px}
+.panel h3{font-size:17px;font-weight:700;margin-bottom:14px;display:flex;align-items:center;gap:9px}
+.panel h3::before{content:"";width:4px;height:16px;border-radius:2px;background:linear-gradient(var(--purple),var(--green))}
+.item{padding:14px 0;border-bottom:1px dashed rgba(176,124,240,.2)}
+.item:last-child{border-bottom:none;padding-bottom:0}
+.item:first-of-type{padding-top:2px}
+.item h4{font-size:15px;font-weight:600;margin-bottom:5px;color:var(--text)}
+.item p{font-size:13.5px;color:var(--muted)}
+.item .stamp{font-size:12px;color:var(--green);letter-spacing:.4px;margin-top:6px;display:block}
+.panel ul.plain{list-style:none}
+.panel ul.plain li{font-size:14px;color:var(--muted);padding:9px 0;display:flex;gap:10px}
+.panel ul.plain li::before{content:"›";color:var(--purple);font-weight:700;line-height:1.5}
+
+/* ---------- filter ---------- */
+.filter-bar{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-bottom:22px}
+.filter-bar input[type="search"]{
+  flex:1 1 260px;min-width:0;padding:11px 16px;border-radius:11px;
+  background:rgba(255,255,255,.04);border:1px solid var(--line);
+  color:var(--text);font-size:14.5px;font-family:inherit;outline:none;
+}
+.filter-bar input[type="search"]::placeholder{color:#8b7fa6}
+.filter-bar input[type="search"]:focus{border-color:rgba(176,124,240,.6);background:rgba(176,124,240,.07)}
+.chip{
+  padding:9px 17px;border-radius:10px;font-size:14px;cursor:pointer;
+  background:rgba(255,255,255,.04);border:1px solid var(--line);color:var(--muted);
+  transition:.2s;font-family:inherit;
+}
+.chip:hover{color:var(--text);border-color:rgba(176,124,240,.45)}
+.chip.active{background:linear-gradient(135deg,var(--purple-deep),var(--purple));color:#fff;border-color:transparent}
+.grid-videos{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.video-card{background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden;transition:.2s}
+.video-card:hover{transform:translateY(-3px);border-color:rgba(176,124,240,.5)}
+.video-thumb{aspect-ratio:16/9;background:linear-gradient(140deg,#33254d,#1e1730);display:grid;place-items:center;position:relative}
+.video-thumb svg{width:42px;height:42px;opacity:.85}
+.video-thumb .dur{position:absolute;right:8px;bottom:8px;font-size:11.5px;background:rgba(0,0,0,.62);padding:1px 7px;border-radius:5px;color:#e8e2f5;letter-spacing:.3px}
+.video-body{padding:13px 14px 15px}
+.video-body h4{font-size:14.5px;font-weight:600;line-height:1.5;margin-bottom:5px}
+.video-body p{font-size:12.5px;color:var(--muted)}
+.no-result{grid-column:1/-1;font-size:14px;color:var(--muted);padding:26px 0;text-align:center}
+
+/* ---------- faq ---------- */
+.faq{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.qa{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 20px}
+.qa h3{font-size:15px;font-weight:700;margin-bottom:7px;color:#e3d6fb}
+.qa p{font-size:13.8px;color:var(--muted)}
+
+/* ---------- footer ---------- */
+footer.site{padding:38px 0 30px;font-size:13px;color:var(--muted)}
+.foot-top{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap;padding-bottom:20px;border-bottom:1px solid var(--line)}
+.foot-brand{display:flex;align-items:center;gap:10px;font-weight:700;color:var(--text);font-size:15px}
+.foot-brand .mark{width:32px;height:32px;border-radius:9px;background:linear-gradient(150deg,#3a2a58,#241a38);display:grid;place-items:center;border:1px solid var(--line)}
+.foot-brand .mark svg{width:20px;height:20px}
+.foot-links{display:flex;gap:20px;flex-wrap:wrap}
+.foot-links a:hover{color:var(--text)}
+.foot-bottom{padding-top:18px;display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;font-size:12.5px;line-height:1.7}
+
+/* ---------- responsive ---------- */
+@media (max-width:920px){
+  .hero-grid{grid-template-columns:1fr;gap:32px}
+  .hero-art{max-width:400px;margin:0 auto;order:-1}
+  .cards,.grid-videos{grid-template-columns:repeat(2,1fr)}
+  .feed{grid-template-columns:1fr}
+  .faq{grid-template-columns:1fr}
+}
+@media (max-width:640px){
+  .nav-inner{flex-wrap:wrap;padding:12px 0;gap:10px}
+  nav.main{order:3;width:100%;justify-content:flex-start;gap:2px;overflow-x:auto;padding-bottom:2px}
+  nav.main a{padding:6px 9px;font-size:13.5px}
+  .nav-cta{display:none}
+  .hero{padding:40px 0 38px}
+  h1{font-size:27px}
+  .hero-lead{font-size:14.5px}
+  section.block{padding:42px 0}
+  .cards,.grid-videos{grid-template-columns:1fr}
+  .filter-bar input[type="search"]{flex:1 1 100%}
+  body{line-height:1.72}
+}
+@media (prefers-reduced-motion:reduce){
+  *{transition:none!important;scroll-behavior:auto!important}
+}
+</style>
+    <script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</head>
+<body>
+
+<header class="site">
+  <div class="wrap nav-inner">
+    <a class="brand" href="#top" aria-label="茄子人成年短视频 首页">
+      <span class="mark" aria-hidden="true">
+        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+          <path d="M50 20c6 0 10 5 10 11 0 4-2 7-4 9 10 3 17 12 17 23 0 13-10 23-23 23S27 74 27 61c0-11 7-20 17-23-2-2-4-5-4-9 0-6 4-11 10-11z" fill="#b07cf0"/>
+          <path d="M43 31c2-5 5-7 7-7s5 2 7 7" stroke="#73c88a" stroke-width="4" fill="none" stroke-linecap="round"/>
+          <circle cx="42" cy="59" r="4" fill="#241a38"/>
+          <circle cx="58" cy="59" r="4" fill="#241a38"/>
+        </svg>
+      </span>
+      <span class="brand-name">茄子人成年短视频</span>
+    </a>
+    <nav class="main" aria-label="主导航">
+      <a href="#channels">内容分区</a>
+      <a href="#latest">最新更新</a>
+      <a href="#library">片库检索</a>
+      <a href="#submit">创作者投稿</a>
+      <a href="#faq">常见问题</a>
+    </nav>
+    <a class="nav-cta" href="#library">进入片库</a>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <span class="tagline"><i></i>仅限 18 岁以上观众访问</span>
+        <h1>茄子人成年短视频</h1>
+        <p class="hero-lead">
+          茄子人成年短视频是一个以成年观众为对象的内容聚合页面，把风格短片、生活纪录与创作者访谈放在同一套浏览框架里。
+          这里按题材划分入口，每部短片都标注时长与适宜人群，方便你先看清内容再决定是否播放。
+        </p>
+        <div class="btn-row">
+          <a class="btn btn-primary" href="#library">浏览片库</a>
+          <a class="btn btn-ghost" href="#submit">了解投稿要求</a>
+          <a class="btn btn-ghost" href="#" data-download-placeholder="true" aria-disabled="true" tabindex="-1">下载</a>
+        </div>
+        <p class="hero-note">成年向内容需自行确认所在地观看规定，页面默认不向未成年人开放。</p>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" role="presentation">
+          <defs>
+            <linearGradient id="gA" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#b07cf0"/><stop offset="1" stop-color="#6d43bd"/>
+            </linearGradient>
+            <linearGradient id="gB" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0" stop-color="#73c88a"/><stop offset="1" stop-color="#3f8f5c"/>
+            </linearGradient>
+          </defs>
+          <rect x="58" y="86" width="284" height="180" rx="18" fill="#1d1630" stroke="#4a3a70"/>
+          <rect x="76" y="104" width="248" height="126" rx="10" fill="#2a2040"/>
+          <path d="M188 142l46 30-46 30z" fill="url(#gA)"/>
+          <rect x="76" y="240" width="248" height="8" rx="4" fill="#4a3a70"/>
+          <circle cx="120" cy="300" r="9" fill="url(#gB)"/>
+          <circle cx="160" cy="300" r="9" fill="#4a3a70"/>
+          <circle cx="200" cy="300" r="9" fill="#4a3a70"/>
+          <rect x="230" y="294" width="94" height="12" rx="6" fill="#3a2d58"/>
+          <path d="M96 62c8-16 22-22 32-22s24 6 32 22" fill="none" stroke="url(#gB)" stroke-width="7" stroke-linecap="round"/>
+          <circle cx="128" cy="62" r="6" fill="#73c88a"/>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- CHANNELS -->
+  <section class="block" id="channels">
+    <div class="wrap">
+      <div class="sec-head">
+        <div>
+          <h2>内容分区：<span>按题材挑选</span></h2>
+          <p>茄子人成年短视频把内容分为三个稳定分区，每个分区有独立的选片标准，方便成年观众快速找到想看的类型。</p>
+        </div>
+      </div>
+      <div class="cards">
+        <article class="card">
+          <span class="ico" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#b07cf0" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16v12H4z"/><path d="M10 9l5 3-5 3z"/></svg>
+          </span>
+          <h3>风格短片</h3>
+          <p>以叙事、氛围与视觉风格为主要看点，单条时长多在三到十分钟之间。分区内保留作品简介与创作说明，便于判断阅读门槛。</p>
+          <div class="meta"><em>叙事</em><em>氛围</em><em>3–10 分钟</em></div>
+        </article>
+        <article class="card">
+          <span class="ico" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#73c88a" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8"/><path d="M12 8v4l3 2"/></svg>
+          </span>
+          <h3>生活纪录</h3>
+          <p>记录成年人的日常片段与兴趣实践，强调真实场景与可回溯的拍摄说明。内容节奏偏慢，适合在碎片时间里连续观看。</p>
+          <div class="meta"><em>日常</em><em>真实场景</em><em>短片段</em></div>
+        </article>
+        <article class="card">
+          <span class="ico" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#b07cf0" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5h16v10H8l-4 4z"/><path d="M9 9h6M9 12h4"/></svg>
+          </span>
+          <h3>创作者访谈</h3>
+          <p>围绕拍摄动机、器材选择和内容边界展开对话。访谈内容以创作者本人表述为准，茄子人成年短视频仅做记录与编排。</p>
+          <div class="meta"><em>对话</em><em>创作动机</em><em>幕后</em></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- LATEST -->
+  <section class="block" id="latest">
+    <div class="wrap">
+      <div class="sec-head">
+        <div>
+          <h2>最新更新：<span>近期上架与排期</span></h2>
+          <p>以下条目记录本页近期整理的内容，更新节奏以创作者交付时间为准，排期变化会在对应条目中同步说明。</p>
+        </div>
+      </div>
+      <div class="feed">
+        <div class="panel">
+          <h3>近期上架</h3>
+          <div class="item">
+            <h4>夜行电车 · 风格短片</h4>
+            <p>以城市夜班线路为背景的短片，全片约七分钟，含少量闪烁画面提示。</p>
+            <span class="stamp">已上架 · 标注闪烁提示</span>
+          </div>
+          <div class="item">
+            <h4>厨房里的第二份早餐 · 生活纪录</h4>
+            <p>记录一位成年观众独居后的早餐习惯，画面以固定机位为主，无对白。</p>
+            <span class="stamp">已上架 · 无对白</span>
+          </div>
+          <div class="item">
+            <h4>镜头之后：三位短片作者的取舍 · 创作者访谈</h4>
+            <p>围绕内容边界与发布节奏的对谈，含对白字幕，时长约十二分钟。</p>
+            <span class="stamp">已上架 · 含字幕</span>
+          </div>
+        </div>
+        <div class="panel">
+          <h3>观看前须知</h3>
+          <ul class="plain">
+            <li>茄子人成年短视频的所有条目均面向成年观众，观看前请确认自身年龄与所在地规定。</li>
+            <li>条目卡片上的时长与提示信息来自创作者提交的资料，未做二次推断。</li>
+            <li>如遇画面不适，可直接关闭播放器，页面不自动连播。</li>
+            <li>排期与上架状态以本页显示为准，未标注条目不视为已上线。</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LIBRARY -->
+  <section class="block" id="library">
+    <div class="wrap">
+      <div class="sec-head">
+        <div>
+          <h2>片库检索：<span>按分区与关键词筛选</span></h2>
+          <p>在下方输入关键词或切换分区，即可在当前片库中筛选条目。筛选只作用于页面已展示的内容。</p>
+        </div>
+      </div>
+
+      <div class="filter-bar" role="search">
+        <input type="search" id="q" placeholder="输入片名或题材关键词，如：夜行、访谈" aria-label="按片名或题材搜索">
+        <button class="chip active" data-cat="all" type="button">全部</button>
+        <button class="chip" data-cat="风格短片" type="button">风格短片</button>
+        <button class="chip" data-cat="生活纪录" type="button">生活纪录</button>
+        <button class="chip" data-cat="创作者访谈" type="button">创作者访谈</button>
+      </div>
+
+      <div class="grid-videos" id="grid">
+        <article class="video-card" data-cat="风格短片" data-k="夜行电车 城市 短片 闪烁">
+          <div class="video-thumb" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#b07cf0" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M10 8l6 4-6 4z"/></svg>
+            <span class="dur">07:12</span>
+          </div>
+          <div class="video-body"><h4>夜行电车</h4><p>风格短片 · 含闪烁画面提示</p></div>
+        </article>
+        <article class="video-card" data-cat="生活纪录" data-k="厨房 早餐 独居 纪录">
+          <div class="video-thumb" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#73c88a" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M10 8l6 4-6 4z"/></svg>
+            <span class="dur">05:40</span>
+          </div>
+          <div class="video-body"><h4>厨房里的第二份早餐</h4><p>生活纪录 · 固定机位无对白</p></div>
+        </article>
+        <article class="video-card" data-cat="创作者访谈" data-k="镜头 作者 访谈 内容边界">
+          <div class="video-thumb" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#b07cf0" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M10 8l6 4-6 4z"/></svg>
+            <span class="dur">12:05</span>
+          </div>
+          <div class="video-body"><h4>镜头之后：三位短片作者的取舍</h4><p>创作者访谈 · 含对白字幕</p></div>
+        </article>
+        <article class="video-card" data-cat="风格短片" data-k="走廊 灯光 构图 短片">
+          <div class="video-thumb" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#b07cf0" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M10 8l6 4-6 4z"/></svg>
+            <span class="dur">04:26</span>
+          </div>
+          <div class="video-body"><h4>走廊尽头的一盏灯</h4><p>风格短片 · 低照度画面</p></div>
+        </article>
+        <article class="video-card" data-cat="生活纪录" data-k="骑行 通勤 纪录 城市">
+          <div class="video-thumb" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#73c88a" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M10 8l6 4-6 4z"/></svg>
+            <span class="dur">08:33</span>
+          </div>
+          <div class="video-body"><h4>绕城一圈的骑行通勤</h4><p>生活纪录 · 环境声为主</p></div>
+        </article>
+        <article class="video-card" data-cat="创作者访谈" data-k="器材 访谈 拍摄 选择">
+          <div class="video-thumb" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#b07cf0" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M10 8l6 4-6 4z"/></svg>
+            <span class="dur">10:18</span>
+          </div>
+          <div class="video-body"><h4>一支镜头拍完一条片</h4><p>创作者访谈 · 器材与取舍</p></div>
+        </article>
+        <p class="no-result" id="noResult" hidden>当前筛选没有匹配条目，可清空关键词或切回“全部”再看。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SUBMIT -->
+  <section class="block" id="submit">
+    <div class="wrap">
+      <div class="sec-head">
+        <div>
+          <h2>创作者投稿：<span>成年向内容的提交方式</span></h2>
+          <p>茄子人成年短视频接受成年创作者提交的短片。提交前请核对以下要点，减少往返沟通。</p>
+        </div>
+      </div>
+      <div class="feed">
+        <div class="panel">
+          <h3>提交要点</h3>
+          <ul class="plain">
+            <li>作品须由成年创作者完成，并在提交时说明主要拍摄对象均为成年人。</li>
+            <li>提供片名、时长、题材分区与画面提示，如闪烁、低照度或强音效。</li>
+            <li>附一段不超过两百字的创作说明，讲清拍摄动机与希望呈现的部分。</li>
+            <li>如包含第三方素材，请在说明中标注来源与授权情况。</li>
+          </ul>
+        </div>
+        <div class="panel">
+          <h3>审核与上架</h3>
+          <p style="font-size:14px;color:var(--muted);margin-bottom:12px">
+            提交后按分区逐条审看，主要核对年龄提示、画面说明与素材来源是否完整。通过后进入排期，上架时会同步更新“最新更新”中的条目。
+          </p>
+          <p style="font-size:14px;color:var(--muted)">
+            未通过的作品会收到具体原因说明，可按建议修改后再次提交。茄子人成年短视频不承诺固定的审看时长，排期以实际进度为准。
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="block" id="faq" style="border-bottom:none">
+    <div class="wrap">
+      <div class="sec-head">
+        <div>
+          <h2>常见问题：<span>观看与提交的说明</span></h2>
+          <p>以下回答针对本站当前展示的内容范围，后续如有调整会在本区同步。</p>
+        </div>
+      </div>
+      <div class="faq">
+        <div class="qa">
+          <h3>为什么强调成年观众？</h3>
+          <p>茄子人成年短视频的内容定位面向成年人，部分题材涉及成年人的生活议题与夜间场景，因此页面在入口处提示年龄限制。</p>
+        </div>
+        <div class="qa">
+          <h3>片库中的时长准确吗？</h3>
+          <p>时长来自创作者提交的成片信息，本站按原数值标注，不做四舍五入之外的改动；如创作者后续替换版本，会一并更新。</p>
+        </div>
+        <div class="qa">
+          <h3>能否只看某一分区？</h3>
+          <p>可以。片库上方的分区按钮会把列表收窄到单一分区，配合关键词搜索可进一步缩小范围。</p>
+        </div>
+        <div class="qa">
+          <h3>投稿后多久能上架？</h3>
+          <p>审看与排期按提交顺序推进，茄子人成年短视频不设固定时限；如需了解进度，可在再次提交时附上先前作品的片名。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <div class="foot-top">
+      <div class="foot-brand">
+        <span class="mark" aria-hidden="true">
+          <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+            <path d="M50 20c6 0 10 5 10 11 0 4-2 7-4 9 10 3 17 12 17 23 0 13-10 23-23 23S27 74 27 61c0-11 7-20 17-23-2-2-4-5-4-9 0-6 4-11 10-11z" fill="#b07cf0"/>
+            <path d="M43 31c2-5 5-7 7-7s5 2 7 7" stroke="#73c88a" stroke-width="4" fill="none" stroke-linecap="round"/>
+            <circle cx="42" cy="59" r="4" fill="#241a38"/>
+            <circle cx="58" cy="59" r="4" fill="#241a38"/>
+          </svg>
+        </span>
+        <span>茄子人成年短视频</span>
+      </div>
+      <div class="foot-links">
+        <a href="#channels">内容分区</a>
+        <a href="#latest">最新更新</a>
+        <a href="#library">片库检索</a>
+        <a href="#submit">创作者投稿</a>
+        <a href="#faq">常见问题</a>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>茄子人成年短视频 · 成年向内容聚合，观看前请确认年龄与所在地规定。</span>
+      <span>页面内容与排期以实际展示为准</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var q = document.getElementById('q');
+  var grid = document.getElementById('grid');
+  var cards = Array.prototype.slice.call(grid.querySelectorAll('.video-card'));
+  var chips = Array.prototype.slice.call(document.querySelectorAll('.chip'));
+  var noResult = document.getElementById('noResult');
+  var cat = 'all';
+
+  function apply(){
+    var kw = (q.value || '').trim().toLowerCase();
+    var shown = 0;
+    cards.forEach(function(c){
+      var okCat = (cat === 'all' || c.getAttribute('data-cat') === cat);
+      var hay = (c.getAttribute('data-k') + ' ' + c.textContent).toLowerCase();
+      var okKw = !kw || hay.indexOf(kw) !== -1;
+      var show = okCat && okKw;
+      c.style.display = show ? '' : 'none';
+      if(show) shown++;
+    });
+    noResult.hidden = shown > 0;
+  }
+
+  q.addEventListener('input', apply);
+
+  chips.forEach(function(btn){
+    btn.addEventListener('click', function(){
+      chips.forEach(function(b){ b.classList.remove('active'); });
+      btn.classList.add('active');
+      cat = btn.getAttribute('data-cat');
+      apply();
+    });
+  });
+})();
+</script>
+</body>
+</html>
